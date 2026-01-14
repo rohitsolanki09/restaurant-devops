@@ -1,0 +1,21 @@
+# Visual FoxPro database files
+*.dbf
+*.DBF
+*.fpt
+*.BAK
+
+# Runtime folders
+uploads/
+output/
+temp/
+
+# Excel exports
+*.xls
+*.xlsx
+*.csv
+
+# Database runtime data
+data/*.dbf
+data/*.DBF
+data/*.fpt
+data/*.BAK
