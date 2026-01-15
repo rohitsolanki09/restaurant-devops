@@ -18,3 +18,9 @@ jobs:
         run: |
           cd scripts
           ./build.ps1
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: restaurant-build
+          path: restaurant-build-*.zip
