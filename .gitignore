@@ -19,3 +19,7 @@ data/*.dbf
 data/*.DBF
 data/*.fpt
 data/*.BAK
+
+# Build artifacts
+/build/
+restaurant-build-*.zip
