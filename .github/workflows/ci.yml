@@ -1,0 +1,20 @@
+name: Restaurant CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run build script
+        shell: pwsh
+        run: |
+          cd scripts
+          ./build.ps1
